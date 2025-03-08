@@ -5,6 +5,7 @@ import Agencies from './component/Agencies'
 import StrengthSection from './component/OurStrenth'
 import TeamSection from './component/Team'
 import ContactSection from './component/Contact'
+import Footer from './component/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <StrengthSection />
         <TeamSection />
         <ContactSection />
+        <Footer />
     </div>
   )
 }
